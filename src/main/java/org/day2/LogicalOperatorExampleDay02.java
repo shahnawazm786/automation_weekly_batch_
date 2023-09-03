@@ -15,7 +15,9 @@ public class LogicalOperatorExampleDay02 {
         System.out.println("|| Operator");
         System.out.println(5<10 || 100==200 || 60>50);// true
         System.out.println(5>10 || 100==200 || 60<50);// false
-        System.out.println();
+        System.out.println("! Operator");
+        System.out.println(!(100==100)); //false
+        System.out.println(!(100>100)); //true
 
     }
 }
