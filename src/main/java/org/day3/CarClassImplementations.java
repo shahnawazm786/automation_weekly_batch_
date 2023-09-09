@@ -11,6 +11,10 @@ public class CarClassImplementations {
         c=new Car();
         System.out.println(c.color);
         System.out.println(c.dt);
+        System.out.println("------- Method callled -------");
+        c.getStart();
+        c.getMove();
+        c.getStop();
 
     }
 }
