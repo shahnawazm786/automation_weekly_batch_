@@ -4,10 +4,11 @@ import java.util.Date;
 
 // Blue print of Car
 public class Car {
-    String model_no="10013456AF98"; //attribute
-    int no_doors=4; // attribute
-    int no_seats=4; // attribute
-    //String color="Red"; // attribute
+    static int myclasscount=1; // class variable // we can access directly by class name classname.attibutename
+    String model_no="10013456AF98"; //attribute of object
+    int no_doors=4; // attribute of object
+    int no_seats=4; // attribute of object
+    //String color="Red"; // attribute of object
     String color; // string attribute - null hold // integer attribute = 0 hold
     Date dt;
     // behavior
@@ -19,5 +20,10 @@ public class Car {
     }
     public void getStop(){
         System.out.println("Car stopped ...............");
+    }
+    // classname.methodname()
+    public static void getCountIncrease(){
+        myclasscount++;
+        System.out.println(myclasscount);
     }
 }
