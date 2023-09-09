@@ -11,8 +11,5 @@ public class ComperisionalOperatorExample02Day02 {
         System.out.println(name);
         name="SAM";
         System.out.println(name);
-
-
-
     }
 }
