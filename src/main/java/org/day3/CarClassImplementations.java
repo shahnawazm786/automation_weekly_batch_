@@ -15,6 +15,7 @@ public class CarClassImplementations {
         c.getStart();
         c.getMove();
         c.getStop();
+        // accessible the class variable
         System.out.println(Car.myclasscount);
         Car.getCountIncrease();
 
