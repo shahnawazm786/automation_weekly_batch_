@@ -15,6 +15,8 @@ public class CarClassImplementations {
         c.getStart();
         c.getMove();
         c.getStop();
+        System.out.println(Car.myclasscount);
+        Car.getCountIncrease();
 
     }
 }
