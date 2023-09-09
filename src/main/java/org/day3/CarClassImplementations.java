@@ -6,7 +6,7 @@ public class CarClassImplementations {
         Car c; // c is the reference of class
         Car c1; // c1 is the reference of class
         // To access the class method and attribute
-        // classrefrence.method/attribute;
+        // class reference.method //attribute;
         // to create object of the class
         c=new Car();
         System.out.println(c.color);
