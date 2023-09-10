@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 09 sep 2023">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day4/LoopControlExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day4/LoopControlExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day4/ForLoopExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/day4/LoopControlExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/day4/LoopControlExample1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,7 +299,42 @@
       <option name="project" value="LOCAL" />
       <updated>1694346238770</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="weekly batch commit - 09 sep 2023">
+      <created>1694357021552</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1694357021552</updated>
+    </task>
+    <task id="LOCAL-00034" summary="weekly batch commit - 09 sep 2023">
+      <created>1694357025515</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694357025515</updated>
+    </task>
+    <task id="LOCAL-00035" summary="weekly batch commit - 09 sep 2023">
+      <created>1694357029548</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1694357029548</updated>
+    </task>
+    <task id="LOCAL-00036" summary="weekly batch commit - 09 sep 2023">
+      <created>1694357106521</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1694357106521</updated>
+    </task>
+    <task id="LOCAL-00037" summary="weekly batch commit - 09 sep 2023">
+      <created>1694357301419</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1694357301419</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
