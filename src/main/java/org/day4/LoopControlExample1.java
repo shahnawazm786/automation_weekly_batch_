@@ -5,8 +5,9 @@ public class LoopControlExample1 {
         // while loop
         int x=1; // intialize
         while(x<=97){
-            System.out.println("Good morning");
+            System.out.println(x+ "\tGood morning");
             x++; // increment or decrement
         }
+
     }
 }
