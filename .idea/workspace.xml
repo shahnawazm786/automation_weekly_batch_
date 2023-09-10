@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 10 sep 2023">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day4/NestedLoopExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/day4/ObjectForLoopExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/day4/ObjectForLoopExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +389,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694360049083</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="weekly batch commit - 10 sep 2023">
+      <created>1694360359422</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1694360359422</updated>
+    </task>
+    <task id="LOCAL-00047" summary="weekly batch commit - 10 sep 2023">
+      <created>1694360365021</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1694360365021</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
