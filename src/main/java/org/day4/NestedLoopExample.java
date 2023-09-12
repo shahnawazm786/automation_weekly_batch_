@@ -29,7 +29,6 @@ public class NestedLoopExample {
                 System.out.print(y+"  ");
             }
             System.out.println();
-
         }
     }
 }
