@@ -18,4 +18,6 @@ public class ForLoopObject {
         words.forEach(w-> System.out.println(w));
 
     }
+    // Arrays -> consecutive location
+
 }
