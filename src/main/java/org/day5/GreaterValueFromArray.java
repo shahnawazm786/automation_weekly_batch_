@@ -4,6 +4,8 @@ public class GreaterValueFromArray {
     public static void main(String[] args) {
 
         int[] a={40,35,70,-80,7,19}; //second or third
+        //{70,40,35,19,7,-80}
+        // a[2]
         int greater=a[0];
         //greater =40
 
