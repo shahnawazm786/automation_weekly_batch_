@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 16 sep 2023&#10;For each">
+    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 17 sep 2023&#10;For each">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day6/EncapsulationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day6/StudentClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EncapsulationExample">
+    <configuration name="EncapsulationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day6.EncapsulationExample" />
+      <module name="WeeklyAutomationBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.day1.HelloWorld" />
       <module name="WeeklyAutomationBatch" />
@@ -60,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EncapsulationExample" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -72,13 +88,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00026" summary="weekly batch commit - 09 sep 2023">
-      <created>1694235921483</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1694235921483</updated>
     </task>
     <task id="LOCAL-00027" summary="weekly batch commit - 09 sep 2023">
       <created>1694235927020</created>
@@ -416,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694875752463</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="weekly batch commit - 17 sep 2023&#10;For each">
+      <created>1694922942041</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1694922942041</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,6 +452,7 @@
     <MESSAGE value="weekly batch commit - 10 sep 2023" />
     <MESSAGE value="weekly batch commit - 16 sep 2023" />
     <MESSAGE value="weekly batch commit - 16 sep 2023&#10;For each" />
-    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 16 sep 2023&#10;For each" />
+    <MESSAGE value="weekly batch commit - 17 sep 2023&#10;For each" />
+    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 17 sep 2023&#10;For each" />
   </component>
 </project>
