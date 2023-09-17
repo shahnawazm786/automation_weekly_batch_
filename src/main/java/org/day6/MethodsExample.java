@@ -7,6 +7,9 @@ public class MethodsExample {
         System.out.println(getDivisions(10,3));
         System.out.println(getFlag("KAZ"));
         System.out.println(getFlag(""));
+        StudentClass st=new StudentClass();
+        st.remarks="Good";
+        st.subject="Math";
     }
     public static String getMyName(String name){
         String subString;
