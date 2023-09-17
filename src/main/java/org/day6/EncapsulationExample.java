@@ -9,6 +9,7 @@ public class EncapsulationExample {
         double marks = std.getMarks();
         System.out.println(marks);
         System.out.println(std.getMarks());
+        std.remarks="Good";
 
     }
 
