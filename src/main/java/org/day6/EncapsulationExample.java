@@ -10,6 +10,7 @@ public class EncapsulationExample {
         System.out.println(marks);
         System.out.println(std.getMarks());
         std.remarks="Good";
+        std.subject="Math";
 
     }
 
