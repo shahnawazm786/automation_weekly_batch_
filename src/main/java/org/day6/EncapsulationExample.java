@@ -5,6 +5,10 @@ public class EncapsulationExample {
       StudentClass std=new StudentClass();
       std.setStudentName("KAZ");
         System.out.println(std.getStudentName());
+        std.setMarks(200);
+        double marks = std.getMarks();
+        System.out.println(marks);
+        System.out.println(std.getMarks());
 
     }
 
