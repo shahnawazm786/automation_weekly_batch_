@@ -5,6 +5,7 @@ public class StudentClass {
 
     private String studentName;// private access specifier
     private double marks;
+    protected  String remarks;
     public double getMarks(){
         return marks;
     }
