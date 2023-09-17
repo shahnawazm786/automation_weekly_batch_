@@ -4,8 +4,13 @@ package org.day6;
 public class StudentClass {
 
     private String studentName;// private access specifier
-
-
+    private double marks;
+    public double getMarks(){
+        return marks;
+    }
+    public void setMarks(double marks){
+        this.marks=marks;
+    }
     // Access Specifier -> private, protected, public, package / default
     // provide accessibility
 
