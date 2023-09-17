@@ -6,6 +6,7 @@ public class StudentClass {
     private String studentName;// private access specifier
     private double marks;
     protected  String remarks;
+    String subject;// default or package
     public double getMarks(){
         return marks;
     }
