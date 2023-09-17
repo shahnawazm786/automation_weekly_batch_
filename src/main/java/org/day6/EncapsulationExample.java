@@ -6,4 +6,5 @@ public class EncapsulationExample {
         std.setStudentName("KAZ");
         System.out.println(std.getStudentName());
     }
+
 }
