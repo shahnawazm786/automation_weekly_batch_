@@ -1,6 +1,7 @@
 package org.day6;
 // Encapsulation example
 // Data is obtained from the public method only
+// POJO class -> Plain Object Java Object
 public class StudentClass {
 
     private String studentName;// private access specifier
