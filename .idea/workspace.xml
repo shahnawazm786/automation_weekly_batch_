@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 17 sep 2023&#10;For each">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day6/pack_01/PackageLeveSpecifierExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/PackageVariableAccessImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/PackageVariableAccessibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/ProtectedVariableAccessibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7_01/Implementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7_01/PackageLevelImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7_01/SubClassProtectedAccessibility.java" afterDir="false" />
+    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 23 sep 2023&#10;For each">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/absimpl/AbstractExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/absimpl/AbstractImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/day6/StudentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/day6/StudentClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MethodsExample">
+  <component name="RunManager" selected="Application.AbstractImpl">
+    <configuration name="AbstractImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day7.absimpl.AbstractImpl" />
+      <module name="WeeklyAutomationBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.day7.absimpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncapsulationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.day6.EncapsulationExample" />
       <module name="WeeklyAutomationBatch" />
@@ -94,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractImpl" />
         <item itemvalue="Application.MethodsExample" />
         <item itemvalue="Application.EncapsulationExample" />
         <item itemvalue="Application.HelloWorld" />
@@ -108,69 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00047" summary="weekly batch commit - 10 sep 2023">
-      <created>1694360365021</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1694360365021</updated>
-    </task>
-    <task id="LOCAL-00048" summary="weekly batch commit - 10 sep 2023">
-      <created>1694360715473</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1694360715473</updated>
-    </task>
-    <task id="LOCAL-00049" summary="weekly batch commit - 10 sep 2023">
-      <created>1694360721747</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1694360721747</updated>
-    </task>
-    <task id="LOCAL-00050" summary="weekly batch commit - 10 sep 2023">
-      <created>1694361542950</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1694361542950</updated>
-    </task>
-    <task id="LOCAL-00051" summary="weekly batch commit - 10 sep 2023">
-      <created>1694541147986</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1694541147986</updated>
-    </task>
-    <task id="LOCAL-00052" summary="weekly batch commit - 10 sep 2023">
-      <created>1694541526082</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1694541526082</updated>
-    </task>
-    <task id="LOCAL-00053" summary="weekly batch commit - 10 sep 2023">
-      <created>1694541531861</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1694541531861</updated>
-    </task>
-    <task id="LOCAL-00054" summary="weekly batch commit - 10 sep 2023">
-      <created>1694541551522</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1694541551522</updated>
-    </task>
-    <task id="LOCAL-00055" summary="weekly batch commit - 10 sep 2023">
-      <created>1694541586862</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1694541586862</updated>
     </task>
     <task id="LOCAL-00056" summary="weekly batch commit - 10 sep 2023">
       <created>1694541594051</created>
@@ -452,7 +397,70 @@
       <option name="project" value="LOCAL" />
       <updated>1694933139677</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448278953</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448278953</updated>
+    </task>
+    <task id="LOCAL-00097" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448286291</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448286291</updated>
+    </task>
+    <task id="LOCAL-00098" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448293676</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448293676</updated>
+    </task>
+    <task id="LOCAL-00099" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448299543</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448299543</updated>
+    </task>
+    <task id="LOCAL-00100" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448308096</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448308096</updated>
+    </task>
+    <task id="LOCAL-00101" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448313158</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448313158</updated>
+    </task>
+    <task id="LOCAL-00102" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448321072</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448321073</updated>
+    </task>
+    <task id="LOCAL-00103" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448329143</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448329143</updated>
+    </task>
+    <task id="LOCAL-00104" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695448334712</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1695448334712</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,6 +481,7 @@
     <MESSAGE value="weekly batch commit - 16 sep 2023" />
     <MESSAGE value="weekly batch commit - 16 sep 2023&#10;For each" />
     <MESSAGE value="weekly batch commit - 17 sep 2023&#10;For each" />
-    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 17 sep 2023&#10;For each" />
+    <MESSAGE value="weekly batch commit - 23 sep 2023&#10;For each" />
+    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 23 sep 2023&#10;For each" />
   </component>
 </project>
