@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 23 sep 2023&#10;For each">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/absimpl/AbstractExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/absimpl/AbstractImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/finalkeyword/BMWClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/finalkeyword/CarClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/finalkeyword/FinalVariablesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/finalkeyword/HeroClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/finalkeyword/HondaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/finalkeyword/ScarpioClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/finalkeyword/ViechleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/interimpl/ILocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day7/interimpl/InterFaceImplemts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,7 +54,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AbstractImpl">
+  <component name="RunManager" selected="Application.FinalVariablesExample">
     <configuration name="AbstractImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.day7.absimpl.AbstractImpl" />
       <module name="WeeklyAutomationBatch" />
@@ -60,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncapsulationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day6.EncapsulationExample" />
+    <configuration name="FinalKeywordsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day7.FinalKeywordsExample" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day6.*" />
+          <option name="PATTERN" value="org.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day1.HelloWorld" />
+    <configuration name="FinalVariablesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day7.finalkeyword.FinalVariablesExample" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day1.*" />
+          <option name="PATTERN" value="org.day7.finalkeyword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterFaceImplemts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day7.interimpl.InterFaceImplemts" />
+      <module name="WeeklyAutomationBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.day7.interimpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,10 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalVariablesExample" />
+        <item itemvalue="Application.FinalKeywordsExample" />
+        <item itemvalue="Application.InterFaceImplemts" />
         <item itemvalue="Application.AbstractImpl" />
         <item itemvalue="Application.MethodsExample" />
-        <item itemvalue="Application.EncapsulationExample" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -116,27 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00056" summary="weekly batch commit - 10 sep 2023">
-      <created>1694541594051</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1694541594051</updated>
-    </task>
-    <task id="LOCAL-00057" summary="weekly batch commit - 10 sep 2023">
-      <created>1694776539916</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1694776539916</updated>
-    </task>
-    <task id="LOCAL-00058" summary="weekly batch commit - 16 sep 2023">
-      <created>1694842454482</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1694842454482</updated>
     </task>
     <task id="LOCAL-00059" summary="weekly batch commit - 16 sep 2023&#10;For each">
       <created>1694842997090</created>
@@ -460,7 +461,28 @@
       <option name="project" value="LOCAL" />
       <updated>1695448334712</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695449242184</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1695449242184</updated>
+    </task>
+    <task id="LOCAL-00106" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695449250328</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1695449250328</updated>
+    </task>
+    <task id="LOCAL-00107" summary="weekly batch commit - 23 sep 2023&#10;For each">
+      <created>1695449272528</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1695449272528</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
