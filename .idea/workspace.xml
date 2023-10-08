@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 24 sep 2023&#10;For each">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/CheckedExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/CustomeExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/Demo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/DemoCustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/ErrorsExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/FinallyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/ThrowsKeyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day10/UncheckedExceptionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/day9/methodoverriding/CarOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/day9/methodoverriding/CarOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +56,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringExample">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day9.multiple.Demo" />
+  <component name="RunManager" selected="Application.DemoCustomException">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day10.Demo1" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day9.multiple.*" />
+          <option name="PATTERN" value="org.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day9.multiple.DemoImpl" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day10.Demo2" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day9.multiple.*" />
+          <option name="PATTERN" value="org.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverridingImple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day9.methodoverriding.OverridingImple" />
+    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day10.Demo3" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day9.methodoverriding.*" />
+          <option name="PATTERN" value="org.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day9.string.StringExample" />
+    <configuration name="DemoCustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day10.DemoCustomException" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day9.string.*" />
+          <option name="PATTERN" value="org.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.day9.chaining.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day9.chaining.Demo" />
+    <configuration name="ThrowsKeyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day10.ThrowsKeyExample" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day9.chaining.*" />
+          <option name="PATTERN" value="org.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringExample" />
-        <item itemvalue="Application.org.day9.chaining.Demo" />
-        <item itemvalue="Application.DemoImpl" />
-        <item itemvalue="Application.OverridingImple" />
-        <item itemvalue="Application.org.day9.multiple.Demo" />
+        <item itemvalue="Application.DemoCustomException" />
+        <item itemvalue="Application.Demo3" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.ThrowsKeyExample" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00113" summary="weekly batch commit - 23 sep 2023&#10;For each">
-      <created>1695452130409</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1695452130409</updated>
     </task>
     <task id="LOCAL-00114" summary="weekly batch commit - 23 sep 2023&#10;For each">
       <created>1695452135477</created>
@@ -472,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696657824813</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="weekly batch commit - 24 sep 2023&#10;For each">
+      <created>1696735811843</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1696735811843</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
