@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 08 Oct 2023&#10;For each">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day12/listinterface/ListInterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/day12/listinterface/ListInterfaceOtherMethodExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileInformation">
+  <component name="RunManager" selected="Application.ListInterfaceOtherMethodExample">
     <configuration name="DeleteExistingFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.day11.files.DeleteExistingFile" />
       <module name="WeeklyAutomationBatch" />
@@ -71,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day11.files.NewFileExample" />
+    <configuration name="ListInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day12.listinterface.ListInterfaceExample" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day11.files.*" />
+          <option name="PATTERN" value="org.day12.listinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListInterfaceOtherMethodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.day12.listinterface.ListInterfaceOtherMethodExample" />
+      <module name="WeeklyAutomationBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.day12.listinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteContentIntoaFileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day11.files.WriteContentIntoaFileExample" />
-      <module name="WeeklyAutomationBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.day11.files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListInterfaceOtherMethodExample" />
+        <item itemvalue="Application.ListInterfaceExample" />
         <item itemvalue="Application.FileInformation" />
         <item itemvalue="Application.DeleteExistingFile" />
         <item itemvalue="Application.ReadingContentsFromTheFile" />
-        <item itemvalue="Application.WriteContentIntoaFileExample" />
-        <item itemvalue="Application.NewFileExample" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00137" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696655091248</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1696655091248</updated>
     </task>
     <task id="LOCAL-00138" summary="weekly batch commit - 24 sep 2023&#10;For each">
       <created>1696655097350</created>
@@ -472,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697288135703</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="weekly batch commit - 08 Oct 2023&#10;For each">
+      <created>1697340623847</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1697340623847</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
