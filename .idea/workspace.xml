@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 21 Oct 2023&#10;For each">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day1/SeleniumBasicMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day1/SeleniumNavigationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day1/Selenium_Cookies_Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day1/Selenium_First_Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorGetTextExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorIsDisplayed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorStrategeByClasss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorStrategy01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorStrategyByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorStrategyLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorStrategyPartialLinkText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LoctorStrategyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +53,13 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Selenium_Cookies_Example">
-    <configuration name="MapInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.day12.mapinterface.MapInterfaceExample" />
+  <component name="RunManager" selected="Application.LocatorIsDisplayed">
+    <configuration name="LocatorGetTextExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day2.LocatorGetTextExample" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.day12.mapinterface.*" />
+          <option name="PATTERN" value="selenium.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumBasicMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day1.SeleniumBasicMethod" />
+    <configuration name="LocatorIsDisplayed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day2.LocatorIsDisplayed" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day1.*" />
+          <option name="PATTERN" value="selenium.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumNavigationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day1.SeleniumNavigationExample" />
+    <configuration name="LocatorStrategyByName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day2.LocatorStrategyByName" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day1.*" />
+          <option name="PATTERN" value="selenium.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_Cookies_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day1.Selenium_Cookies_Example" />
+    <configuration name="LocatorStrategyLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day2.LocatorStrategyLinkText" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day1.*" />
+          <option name="PATTERN" value="selenium.day2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,20 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_First_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day1.Selenium_First_Class" />
+    <configuration name="LocatorStrategyPartialLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day2.LocatorStrategyPartialLinkText" />
       <module name="WeeklyAutomationBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Selenium_Cookies_Example" />
-        <item itemvalue="Application.SeleniumNavigationExample" />
-        <item itemvalue="Application.SeleniumBasicMethod" />
-        <item itemvalue="Application.Selenium_First_Class" />
-        <item itemvalue="Application.MapInterfaceExample" />
+        <item itemvalue="Application.LocatorIsDisplayed" />
+        <item itemvalue="Application.LocatorStrategyPartialLinkText" />
+        <item itemvalue="Application.LocatorStrategyLinkText" />
+        <item itemvalue="Application.LocatorGetTextExample" />
+        <item itemvalue="Application.LocatorStrategyByName" />
       </list>
     </recent_temporary>
   </component>
@@ -127,41 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00147" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696657748195</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1696657748195</updated>
-    </task>
-    <task id="LOCAL-00148" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696657753644</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1696657753644</updated>
-    </task>
-    <task id="LOCAL-00149" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696657759319</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1696657759319</updated>
-    </task>
-    <task id="LOCAL-00150" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696657765391</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1696657765391</updated>
-    </task>
-    <task id="LOCAL-00151" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696657770453</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1696657770453</updated>
     </task>
     <task id="LOCAL-00152" summary="weekly batch commit - 24 sep 2023&#10;For each">
       <created>1696657775653</created>
@@ -471,7 +446,42 @@
       <option name="project" value="LOCAL" />
       <updated>1697861697480</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="weekly batch commit - 21 Oct 2023&#10;For each">
+      <created>1697864335911</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1697864335911</updated>
+    </task>
+    <task id="LOCAL-00197" summary="weekly batch commit - 21 Oct 2023&#10;For each">
+      <created>1697864339066</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1697864339066</updated>
+    </task>
+    <task id="LOCAL-00198" summary="weekly batch commit - 21 Oct 2023&#10;For each">
+      <created>1697864344441</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1697864344441</updated>
+    </task>
+    <task id="LOCAL-00199" summary="weekly batch commit - 21 Oct 2023&#10;For each">
+      <created>1697864349181</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1697864349181</updated>
+    </task>
+    <task id="LOCAL-00200" summary="weekly batch commit - 21 Oct 2023&#10;For each">
+      <created>1697864354083</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1697864354083</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
