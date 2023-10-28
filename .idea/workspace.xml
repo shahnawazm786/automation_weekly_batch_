@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 28 Oct 2023&#10;For each">
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day3/alerts/AlertExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/day3/alerts/AlertExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/day3/alerts/AlertExample1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WindowsHandlerExample">
-    <configuration name="AlertExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day3.alerts.AlertExample" />
+  <component name="RunManager" selected="Application.AlertExample2">
+    <configuration name="AlertExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day3.alerts.AlertExample1" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day3.alerts.AlertExample1" />
+    <configuration name="AlertExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day3.alerts.AlertExample2" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlertExample2" />
+        <item itemvalue="Application.AlertExample1" />
         <item itemvalue="Application.WindowsHandlerExample" />
         <item itemvalue="Application.FrameExample1" />
         <item itemvalue="Application.FramesExample" />
-        <item itemvalue="Application.AlertExample1" />
-        <item itemvalue="Application.AlertExample" />
       </list>
     </recent_temporary>
   </component>
@@ -129,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00172" summary="weekly batch commit - 08 Oct 2023&#10;For each">
-      <created>1696741801090</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1696741801090</updated>
     </task>
     <task id="LOCAL-00173" summary="weekly batch commit - 08 Oct 2023&#10;For each">
       <created>1696741807248</created>
@@ -473,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698482786187</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698482806140</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1698482806140</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
