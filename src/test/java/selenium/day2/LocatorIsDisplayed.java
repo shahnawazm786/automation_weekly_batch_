@@ -21,6 +21,7 @@ public class LocatorIsDisplayed {
     String text = link.getText();
         System.out.println(text);
     // Get tag name
+
         System.out.println("Tag name \t" + link.getTagName());
         Thread.sleep(2000);
         System.out.println("Link enable\t"+link.isEnabled());
