@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 21 Oct 2023&#10;For each">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day3/alerts/AlertExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day3/alerts/AlertExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day3/windowshandler/WindowsHandlerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day3/windowshandler/frames/FrameExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day3/windowshandler/frames/FramesExample.java" afterDir="false" />
+    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 28 Oct 2023&#10;For each">
+      <change afterPath="$PROJECT_DIR$/html/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/day1/Selenium_First_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/day1/Selenium_First_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorIsDisplayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/day2/LocatorIsDisplayed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,55 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00161" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696657824813</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1696657824813</updated>
-    </task>
-    <task id="LOCAL-00162" summary="weekly batch commit - 24 sep 2023&#10;For each">
-      <created>1696735811843</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1696735811843</updated>
-    </task>
-    <task id="LOCAL-00163" summary="weekly batch commit - 08 Oct 2023&#10;For each">
-      <created>1696741743965</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1696741743965</updated>
-    </task>
-    <task id="LOCAL-00164" summary="weekly batch commit - 08 Oct 2023&#10;For each">
-      <created>1696741750162</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1696741750162</updated>
-    </task>
-    <task id="LOCAL-00165" summary="weekly batch commit - 08 Oct 2023&#10;For each">
-      <created>1696741756820</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1696741756820</updated>
-    </task>
-    <task id="LOCAL-00166" summary="weekly batch commit - 08 Oct 2023&#10;For each">
-      <created>1696741760748</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1696741760748</updated>
-    </task>
-    <task id="LOCAL-00167" summary="weekly batch commit - 08 Oct 2023&#10;For each">
-      <created>1696741767614</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1696741767614</updated>
     </task>
     <task id="LOCAL-00168" summary="weekly batch commit - 08 Oct 2023&#10;For each">
       <created>1696741774612</created>
@@ -480,7 +426,56 @@
       <option name="project" value="LOCAL" />
       <updated>1697950543064</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698470208277</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1698470208277</updated>
+    </task>
+    <task id="LOCAL-00211" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698470212257</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1698470212257</updated>
+    </task>
+    <task id="LOCAL-00212" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698470219841</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1698470219841</updated>
+    </task>
+    <task id="LOCAL-00213" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698470224133</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1698470224133</updated>
+    </task>
+    <task id="LOCAL-00214" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698470228809</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1698470228810</updated>
+    </task>
+    <task id="LOCAL-00215" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698470233151</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1698470233151</updated>
+    </task>
+    <task id="LOCAL-00216" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1698470241862</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1698470241863</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,6 +500,7 @@
     <MESSAGE value="weekly batch commit - 24 sep 2023&#10;For each" />
     <MESSAGE value="weekly batch commit - 08 Oct 2023&#10;For each" />
     <MESSAGE value="weekly batch commit - 21 Oct 2023&#10;For each" />
-    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 21 Oct 2023&#10;For each" />
+    <MESSAGE value="weekly batch commit - 28 Oct 2023&#10;For each" />
+    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 28 Oct 2023&#10;For each" />
   </component>
 </project>
