@@ -1,9 +1,7 @@
 package selenium.day3.alerts;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AlertExample1 {
@@ -15,9 +13,10 @@ public class AlertExample1 {
         driver.get("https://www.selenium.dev/documentation/webdriver/interactions/alerts/");
         // maximize
         driver.manage().window().maximize();
-        Thread.sleep(2000);
-        driver.findElement(By.linkText("See a sample confirm")).click();
+        Thread.sleep(5000);
 
+        WebElement ele = driver.findElement(By.linkText("See a sample confirm"));
+        ele.click();
         Alert a = driver.switchTo().alert();
         a.dismiss();
         Thread.sleep(5000);
