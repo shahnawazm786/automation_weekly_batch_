@@ -25,7 +25,7 @@ public class Selenium_First_Class {
         Thread.sleep(1000);
         driver.manage().window().maximize();
         // browser close
-        driver.quit(); // Single / Current browser close
+        driver.close(); // Single / Current browser close
         //driver.close(); // Multiple browser close
     }
 }
