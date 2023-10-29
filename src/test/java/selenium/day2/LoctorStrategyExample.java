@@ -14,7 +14,7 @@ public class LoctorStrategyExample {
         WebDriverManager.chromedriver().setup();//
         WebDriver driver = new ChromeDriver();
         // Navigation method
-        driver.get("file:///C:/Users/shahn/OneDrive/Desktop/index.html");
+        driver.get("file:///C:/Users/shahn/OneDrive/Desktop/default.html");
         WebElement element = driver.findElement(By.tagName("div"));
         System.out.println(element.getTagName());
         Thread.sleep(5000);
