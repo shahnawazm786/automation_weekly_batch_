@@ -9,12 +9,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class NestedIframeExample {
     public static void main(String[] args) throws Throwable {
-        //file:///C:/Users/shahn/OneDrive/Desktop/index.html
+        //file:///C:/Users/shahn/OneDrive/Desktop/default.html
         WebDriverManager.chromedriver().setup();
 
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("file:///C:/Users/shahn/OneDrive/Desktop/index.html");
+        driver.get("file:///C:/Users/shahn/OneDrive/Desktop/default.html");
         Thread.sleep(2000);
         //driver.switchTo().frame("iframe1");
         driver.switchTo().frame("iframe1");
