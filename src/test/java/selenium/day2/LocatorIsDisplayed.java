@@ -13,7 +13,7 @@ public class LocatorIsDisplayed {
     WebDriverManager.chromedriver().setup();//
     WebDriver driver = new ChromeDriver();
     // Navigation method
-        driver.get("file:///C:/Users/shahn/OneDrive/Desktop/index.html");
+        driver.get("file:///C:/Users/shahn/OneDrive/Desktop/default.html");
         driver.manage().window().maximize();
     // Element by id
     WebElement link = driver.findElement(By.partialLinkText("Official Page"));
