@@ -46,6 +46,7 @@ public class NestedIframeExample {
         driver.switchTo().defaultContent();
         driver.findElement(By.id("lname")).clear();
         driver.findElement(By.id("lname")).sendKeys("Automation Testing");
+        driver.quit();
 
     }
 }
