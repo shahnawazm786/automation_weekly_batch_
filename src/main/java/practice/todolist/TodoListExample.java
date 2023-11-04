@@ -15,7 +15,6 @@ public class TodoListExample {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.get("https://react-cool-todo-app.netlify.app/");
-
         driver.quit();
     }
 }
