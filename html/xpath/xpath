@@ -1,0 +1,29 @@
+//tag[@attribute='attribute value']
+//*[@attribute='attribute value'] -
+// - Relative Xpath
+//p[@id='para1']
+// attribute ->  ref, debug, col-id, class, type
+// class - primary nav button black blue enable
+// text()
+// contanins()
+// startw-with
+//label[text()='Username']
+<p id="para1">This is formation of div and paragraph</p>
+-- p element
+-- id attribute
+-- para1  atttribute value
+This is formation of div and paragraph - Element Text
+//label[@class='oxd-label']
+//a[starts-with(text(),'Amazon')] - 17
+//p[@id='para1']/following::p
+
+https://www.amazon.in/gp/prime?tag=msndeskstdin-21&ref=pd_sl_axrywhoed_e&adgrpid=1317216540085412&hvadid=82326299628147&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=148996&hvtargid=kwd-82326918051401:loc-90&hydadcr=5621_2377279
+//a[text()='Amazon miniTV']/following::a
+//span[text()='All']/parent::a/parent::div/parent::div/parent::div
+
+//a[text()='Amazon miniTV']/parent::div[@class='nav-progressive-content']/child::a[text()='Mobiles']
+//a[text()='Mobiles']/preceding::a[text()='Best Sellers']
+//a[text()='Mobiles']/following-sibling::a
+//a[text()='Mobiles']/following-sibling::a[1]
+//p[@id='para1']/ancestor::div
+//div[@class='div_info']/descendant::p
