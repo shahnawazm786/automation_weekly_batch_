@@ -1,0 +1,54 @@
+<div class="mbm _br- _a4y" id="password_field"><div class="_5dbb" id="u_4_k_Gq"><div class="uiStickyPlaceholderInput uiStickyPlaceholderEmptyInput"><div class="placeholder" aria-hidden="true">New password</div><input type="password" class="inputtext _58mg _5dba _2ph-" data-type="password" autocomplete="new-password" name="reg_passwd__" id="password_step_input" aria-required="true" placeholder="" aria-label="New password" fdprocessedid="chlvr9" aria-autocomplete="list" aria-describedby="js_y5" aria-invalid="true"></div><i class="_5dbc img sp_98fCI7IVTTz_2x sx_284288"></i><i class="_5dbd img sp_98fCI7IVTTz_2x sx_929fa5"></i><div class="_1pc_"></div></div></div>
+
+//input[@id='password_step_input']/ancestor::div[@class='large_form']/descendant::input[@name='firstname']
+
+<input type="text" class="inputtext _55r1 _6luy" name="email" id="email" data-testid="royal_email" placeholder="Email address or phone number" autofocus="1" aria-label="Email address or phone number" fdprocessedid="uly07k">
+input[id=email]
+input#email
+input[class=inputtext _55r1 _6luy]
+input.oxd-input--active[name=username]
+//input[@class='oxd-input oxd-input--active' and @name='username'] - xpath
+input.oxd-input--active[name=username] - cssSelector (and operator)
+
+<button id="name" class="button"
+
+input[id="name_1"]
+input[id="name"]
+//input[@id="name"] | //input[@id="name_1"] - Page Factory
+//input[contains(@id,'name')]
+<div class="info">
+<input type="text">
+</div>
+<div class="info">
+<input type="option">
+</div>
+<div class="bio">
+<input type="option">
+</div>
+//div[@class="info"]
+//div[@class='info']//input[@type="option"]
+
+<div id="tabs" class="ui-tabs ui-corner-all ui-widget ui-widget-content">
+	<ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
+		<li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tabs-1" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tabs-1" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Nunc tincidunt</a></li>
+		<li role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="tabs-2" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false"><a href="#tabs-2" tabindex="-1" class="ui-tabs-anchor" id="ui-id-2">Proin dolor</a></li>
+		<li role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="tabs-3" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false"><a href="#tabs-3" tabindex="-1" class="ui-tabs-anchor" id="ui-id-3">Aenean lacinia</a></li>
+	</ul>
+	<div id="tabs-1" aria-labelledby="ui-id-1" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="false" style="">
+		<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+	</div>
+	<div id="tabs-2" aria-labelledby="ui-id-2" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="true" style="display: none;">
+		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+	</div>
+	<div id="tabs-3" aria-labelledby="ui-id-3" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="true" style="display: none;">
+		<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+		<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+	</div>
+</div>
+div.ui-widget-content:nth-child(3)
+div.ui-widget-content:nth-child(1) - class
+li[role=tab]:nth-child(3)
+<li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tabs-1" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="#tabs-1" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Nunc tincidunt</a></li>
+li[class^=ui-tabs-tab]
+li[class$=ui-state-active]
+li[class*=ui-corner]
