@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
@@ -31,7 +32,7 @@ public class FeedFormExample {
         Thread.sleep(1000);
         //dateOfBirthInput
         JavascriptExecutor javascriptExecutor=(JavascriptExecutor)driver;
-        javascriptExecutor.executeScript("window.scrollBy(0,600)");
+        javascriptExecutor.executeScript("window.scrollBy(0,1000)");
         driver.findElement(By.id("dateOfBirthInput")).sendKeys("");
         driver.findElement(By.xpath("//div[text()='25']")).click();
         Thread.sleep(1000);
@@ -49,9 +50,14 @@ public class FeedFormExample {
         Thread.sleep(1000);
         driver.findElement(By.id("currentAddress")).sendKeys("South Delhi \n\r New Delhi \n\r 110017");
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//div[text()='Select State']")).click();
+
+        /*driver.findElement(By.cssSelector("input[id=react-select-3-input]")).click();
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//div[text()='NCR']")).click();
+        driver.findElement(By.xpath("//div[text()='NCR']")).click();*/
+        WebElement element = driver.findElement(By.id("submit"));
+        javascriptExecutor.executeScript("documents[0].click",element);
+        //driver.findElement(By.id("submit")).click();
+
         Thread.sleep(20000);
         driver.quit();
 
