@@ -33,14 +33,14 @@ public class FeedFormExample {
         Thread.sleep(1000);
         //dateOfBirthInput
         Actions actions=new Actions(driver);
-        actions.scrollToElement(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
+        actions.scrollToElement(driver.findElement(By.id("subjectsInput"))).build().perform();
         Thread.sleep(1000);
-        actions.click(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
+        actions.click(driver.findElement(By.cssSelector("input[id=dateOfBirthInput]"))).build().perform();
         //actions.contextClick(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
        // driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
 //        //div[text()='19']
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//div[text()='25']")).click();
+        //driver.findElement(By.xpath("//div[text()='25']")).click();
         Thread.sleep(1000);
 //        //subjectsInput
 //        driver.findElement(By.id("subjectsInput")).sendKeys("Math");
