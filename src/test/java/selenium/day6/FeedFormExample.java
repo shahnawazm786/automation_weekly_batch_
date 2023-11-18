@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
 
@@ -31,7 +32,11 @@ public class FeedFormExample {
        driver.findElement(By.id("userNumber")).sendKeys("6789012345");
         Thread.sleep(1000);
         //dateOfBirthInput
-        driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
+        Actions actions=new Actions(driver);
+        actions.scrollToElement(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
+        actions.click(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
+        //actions.contextClick(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
+       // driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
 //        //div[text()='19']
         Thread.sleep(1000);
         driver.findElement(By.xpath("//div[text()='25']")).click();
