@@ -33,7 +33,11 @@ public class FeedFormExample {
         Thread.sleep(1000);
         //dateOfBirthInput
         driver.findElement(By.id("dateOfBirthInput")).sendKeys("");
-        driver.findElement(By.id("dateOfBirthInput")).sendKeys("25 Nov 2023");
+        driver.findElement(By.xpath("//div[text()='25']")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.id("subjectsInput")).sendKeys("Maths");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[text()='Maths")).click();
         //driver.quit();
     }
 }
