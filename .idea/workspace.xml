@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 28 Oct 2023&#10;For each">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day5/CSSSelectorExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day5/LoctorStrategyCSSSelectorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day6/FeedFormExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day6/example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="C:\IntellijScalaWorkSpace\WeeklyAutomationBatch\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CSSSelectorExample2">
+  <component name="RunManager" selected="Application.FeedFormExample">
     <configuration name="CSSSelectorExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="selenium.day5.CSSSelectorExample2" />
       <module name="WeeklyAutomationBatch" />
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullScreenShotExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day4.screenshot.FullScreenShotExample" />
+    <configuration name="FeedFormExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.day6.FeedFormExample" />
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day4.screenshot.*" />
+          <option name="PATTERN" value="selenium.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FeedFormExample" />
         <item itemvalue="Application.CSSSelectorExample2" />
         <item itemvalue="Application.LoctorStrategyCSSSelectorExample" />
         <item itemvalue="Application.JavaScriptExecutorExample" />
         <item itemvalue="Application.ElementScreenshotExample" />
-        <item itemvalue="Application.FullScreenShotExample" />
       </list>
     </recent_temporary>
   </component>
@@ -142,34 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00210" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1698470208277</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1698470208277</updated>
-    </task>
-    <task id="LOCAL-00211" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1698470212257</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1698470212257</updated>
-    </task>
-    <task id="LOCAL-00212" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1698470219841</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1698470219841</updated>
-    </task>
-    <task id="LOCAL-00213" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1698470224133</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1698470224133</updated>
     </task>
     <task id="LOCAL-00214" summary="weekly batch commit - 28 Oct 2023&#10;For each">
       <created>1698470228809</created>
@@ -486,7 +458,35 @@
       <option name="project" value="LOCAL" />
       <updated>1699160360710</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1699687989772</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1699687989772</updated>
+    </task>
+    <task id="LOCAL-00260" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1699687994269</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1699687994269</updated>
+    </task>
+    <task id="LOCAL-00261" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1699688000049</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1699688000049</updated>
+    </task>
+    <task id="LOCAL-00262" summary="weekly batch commit - 28 Oct 2023&#10;For each">
+      <created>1699688004848</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1699688004848</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
