@@ -27,12 +27,15 @@ public class FeedFormExample {
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("label[for=gender-radio-3]")).click();
         //userNumber
-//        driver.findElement(By.id("userNumber")).sendKeys("6789012345");
-//        //dateOfBirthInput
-//        driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
+        Thread.sleep(1000);
+       driver.findElement(By.id("userNumber")).sendKeys("6789012345");
+        Thread.sleep(1000);
+        //dateOfBirthInput
+        driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
 //        //div[text()='19']
-//        Thread.sleep(1000);
-//        driver.findElement(By.xpath("//div[text()='25']")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//div[text()='25']")).click();
+        Thread.sleep(1000);
 //        //subjectsInput
 //        driver.findElement(By.id("subjectsInput")).sendKeys("Math");
 //        Thread.sleep(1000);
