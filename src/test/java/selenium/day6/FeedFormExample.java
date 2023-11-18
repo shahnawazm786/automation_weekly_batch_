@@ -45,9 +45,14 @@ public class FeedFormExample {
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("label[for=hobbies-checkbox-3]")).click();
         Thread.sleep(1000);
-        driver.findElement(By.id("uploadPicture")).sendKeys("");
-
-        Thread.sleep(10000);
+        driver.findElement(By.id("uploadPicture")).sendKeys("C:\\IntellijScalaWorkSpace\\WeeklyAutomationBatch\\image\\screenshot.png");
+        Thread.sleep(1000);
+        driver.findElement(By.id("currentAddress")).sendKeys("South Delhi \n\r New Delhi \n\r 110017");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//div[text()='Select State']")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//div[text()='NCR']")).click();
+        Thread.sleep(20000);
         driver.quit();
 
     }
