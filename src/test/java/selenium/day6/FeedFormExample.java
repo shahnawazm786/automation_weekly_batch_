@@ -34,6 +34,7 @@ public class FeedFormExample {
         //dateOfBirthInput
         Actions actions=new Actions(driver);
         actions.scrollToElement(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
+        Thread.sleep(1000);
         actions.click(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
         //actions.contextClick(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
        // driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
