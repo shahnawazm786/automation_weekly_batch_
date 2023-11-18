@@ -1,0 +1,27 @@
+<div id="userlogin">
+<input class="oxd-input oxd-input--active" name="username" placeholder="Username" autofocus="" data-v-1f99f73c="" fdprocessedid="991i4">
+<input class="oxd-input oxd-input--active" name="username_1" placeholder="Username" autofocus="" data-v-1f99f73c="" fdprocessedid="991i4">
+<input class="oxd-input oxd-input--active" name="username_2" placeholder="Username" autofocus="" data-v-1f99f73c="" fdprocessedid="991i4">
+<input class="oxd-input oxd-input--active" name="username_3" placeholder="Username" autofocus="" data-v-1f99f73c="" fdprocessedid="991i4">
+<input class="oxd-input oxd-input--active" name="username_4" placeholder="Username" autofocus="" data-v-1f99f73c="" fdprocessedid="991i4">
+</div>
+<div id="customerlogin">
+<input class="oxd-input oxd-input--active" name="username" placeholder="Username" autofocus="" data-v-1f99f73c=""
+</div>
+//input[@name='username'] &//div[@id='customerlogin']
+//div[@id="userlogin"]//input[contains(@class,'oxd-input--active') and @name='username']
+
+xpath
+----------------
+//input[@name="username"] | //input[@name="username_1"]
+//input[contains(@name,'username')]
+//input[@name='username' and @fdprocessedid="991i4"]
+save activity -
+
+data -> server -> response -> alert
+//*[conatins(text(),'System Error')]
+<input class="oxd-input oxd-input--active" name="username" placeholder="Username" autofocus="" data-v-1f99f73c="" fdprocessedid="991i4">
+<input class="oxd-input oxd-input--active" name="password" placeholder="Username" autofocus="" data-v-1f99f73c="" fdprocessedid="991i4">
+
+// css selector
+input.oxd-input--active[name=username] - 2 elements and operator
