@@ -44,7 +44,10 @@ public class FeedFormExample {
         driver.findElement(By.cssSelector("label[for=hobbies-checkbox-2]")).click();
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("label[for=hobbies-checkbox-3]")).click();
+
+
         Thread.sleep(10000);
         driver.quit();
+
     }
 }
