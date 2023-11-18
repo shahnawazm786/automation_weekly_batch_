@@ -14,7 +14,7 @@ public class FeedFormExample {
         //firstName
         WebDriverManager.chromedriver().setup();//
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get("https://demoqa.com/automation-practice-form");
         driver.manage().window().maximize();
         // Elements
@@ -32,36 +32,8 @@ public class FeedFormExample {
        driver.findElement(By.id("userNumber")).sendKeys("6789012345");
         Thread.sleep(1000);
         //dateOfBirthInput
-        Actions actions=new Actions(driver);
-        actions.scrollToElement(driver.findElement(By.id("subjectsInput"))).build().perform();
-        Thread.sleep(1000);
-        actions.click(driver.findElement(By.cssSelector("input[id=dateOfBirthInput]"))).build().perform();
-        //actions.contextClick(driver.findElement(By.id("dateOfBirthInput"))).build().perform();
-       // driver.findElement(By.id("dateOfBirthInput")).sendKeys(Keys.ENTER);
-//        //div[text()='19']
-        Thread.sleep(1000);
-        //driver.findElement(By.xpath("//div[text()='25']")).click();
-        Thread.sleep(1000);
-//        //subjectsInput
-//        driver.findElement(By.id("subjectsInput")).sendKeys("Math");
-//        Thread.sleep(1000);
-//        driver.findElement(By.xpath("//*[text()='Math']")).click();
-//        //hobbies-checkbox-1
-//        Thread.sleep(1000);
-//        driver.findElement(By.id("hobbies-checkbox-1")).click();
-//        //uploadPicture
-//        Thread.sleep(1000);
-//        driver.findElement(By.id("uploadPicture")).sendKeys("\\IntellijScalaWorkSpace\\WeeklyAutomationBatch\\image\\screenshot.png");
-//        //currentAddress
-//        Thread.sleep(1000);
-//        driver.findElement(By.id("currentAddress")).sendKeys("South Delhi \n New Delhi \n 110017");
-//        //react-select-3-input
-//        driver.findElement(By.id("react-select-3-input")).click();
-//        ////div[text()='Uttar Pradesh' and@id='react-select-3-option-1']
-//        driver.findElement(By.xpath("//div[text()='Uttar Pradesh' and@id='react-select-3-option-1']")).click();
-//        //submit
-//        driver.findElement(By.id("submit")).click();
-//        Thread.sleep(5000);
+        driver.findElement(By.id("dateOfBirthInput")).sendKeys("");
+        driver.findElement(By.id("dateOfBirthInput")).sendKeys("25 Nov 2023");
         //driver.quit();
     }
 }
