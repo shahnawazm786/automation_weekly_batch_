@@ -40,6 +40,11 @@ public class FeedFormExample {
         Thread.sleep(3000);
         driver.findElement(By.xpath("(//div[text()='Maths'])[2]")).click();
         Thread.sleep(1000);
+        driver.findElement(By.id("subjectsInput")).sendKeys("Physics");
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("(//div[text()='Physics'])[2]")).click();
+        Thread.sleep(1000);
+
         driver.findElement(By.cssSelector("label[for=hobbies-checkbox-1]")).click();
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("label[for=hobbies-checkbox-2]")).click();
@@ -54,8 +59,8 @@ public class FeedFormExample {
         /*driver.findElement(By.cssSelector("input[id=react-select-3-input]")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//div[text()='NCR']")).click();*/
-        WebElement element = driver.findElement(By.id("submit"));
-        javascriptExecutor.executeScript("documents[0].click",element);
+      //  WebElement element = driver.findElement(By.id("submit"));
+      //  javascriptExecutor.executeScript("documents[0].click",element);
         //driver.findElement(By.id("submit")).click();
 
         Thread.sleep(20000);
