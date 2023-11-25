@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Weekly Batch">
+    <test verbose="2" preserve-order="true" name="Sanity Suites">
+        <parameter name="userName" value="Shahnawaz"/>
+        <groups>
+            <run><include name="Regression"/></run>
+        </groups>
+        <classes>
+            <class name="TestNG.day01.TestNGExample10"/>
+            <class name="TestNG.examples.ParameterExample"/>
+            <!--<class name="TestNG.day01.TestNGExample">
+            <methods><include name="test001"/>
+                <include name="test002"/>
+                <include name="test003"/>
+            </methods>
+
+        </class>
+            <class name="TestNG.day01.TestNGExample02">
+                    <methods><include name="test_004"/>
+                    </methods></class>
+                <class name="TestNG.day01.TestNGExample03">
+                    <methods><include name="test_004"/>
+                    </methods>
+                </class>
+                <class name="TestNG.day01.TestNGExample04">
+                    <methods><include name="test_004"/>
+                    </methods>
+                </class>
+                <class name="TestNG.day01.TestNGExample05">
+                    <methods><include name="test_004"/>
+                    </methods>
+                </class>
+                <class name="TestNG.day01.TestNGExample06">
+                    <methods>
+                        <include name="test_004"/>
+                    </methods>
+                </class>
+                <class name="TestNG.day01.TestNGExample07">
+                    <methods>
+                        <include name="test_008"/>
+                    </methods>
+                </class> -->
+        </classes>
+    </test>
+</suite>
