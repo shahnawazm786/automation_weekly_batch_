@@ -19,5 +19,6 @@ public class TestNGExample {
     @Test
     public void test003(){
         System.out.println("Helloo!!! Test NG Method 3");
+        throw new SkipException("Skipping");
     }
 }
