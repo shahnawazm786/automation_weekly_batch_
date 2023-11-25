@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 19 Nov 2023&#10;For each">
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day7/ExplicitStrategyFluentWaitExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/day7/ExplicitWaitStrategyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNGExample12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/day01/TestNgExample09.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,96 +52,111 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/IntellijScalaWorkSpace/WeeklyAutomationBatch/html&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/IntellijScalaWorkSpace/WeeklyAutomationBatch/html",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IntellijScalaWorkSpace\WeeklyAutomationBatch\html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IntellijScalaWorkSpace\WeeklyAutomationBatch\src\test\java\TestNG" />
       <recent name="C:\IntellijScalaWorkSpace\WeeklyAutomationBatch\src\main\java" />
       <recent name="C:\IntellijScalaWorkSpace\WeeklyAutomationBatch\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExplicitWaitStrategyExample">
-    <configuration name="CSSSelectorExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day5.CSSSelectorExample2" />
+  <component name="RunManager" selected="TestNG.TestNGExample12.Test">
+    <configuration name="C:/IntellijScalaWorkSpace/WeeklyAutomationBatch/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeeklyAutomationBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExplicitWaitStrategyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day7.ExplicitWaitStrategyExample" />
+    <configuration name="TestNGExample10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day7.*" />
+          <option name="PATTERN" value="TestNG.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestNG.day01" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.day01.TestNGExample10" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FeedFormExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day6.FeedFormExample" />
+    <configuration name="TestNGExample11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day6.*" />
+          <option name="PATTERN" value="TestNG.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestNG.day01" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.day01.TestNGExample11" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day4.jsexecutor.JavaScriptExecutorExample" />
+    <configuration name="TestNGExample12.Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day4.jsexecutor.*" />
+          <option name="PATTERN" value="TestNG.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestNG.day01" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.day01.TestNGExample12" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoctorStrategyCSSSelectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="selenium.day5.LoctorStrategyCSSSelectorExample" />
+    <configuration name="TestNgExample09" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.day5.*" />
+          <option name="PATTERN" value="TestNG.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestNG.day01" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.day01.TestNgExample09" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExplicitWaitStrategyExample" />
-        <item itemvalue="Application.FeedFormExample" />
-        <item itemvalue="Application.CSSSelectorExample2" />
-        <item itemvalue="Application.LoctorStrategyCSSSelectorExample" />
-        <item itemvalue="Application.JavaScriptExecutorExample" />
+        <item itemvalue="TestNG.TestNGExample12.Test" />
+        <item itemvalue="TestNG.TestNGExample11" />
+        <item itemvalue="TestNG.C:/IntellijScalaWorkSpace/WeeklyAutomationBatch/testng.xml" />
+        <item itemvalue="TestNG.TestNGExample10" />
+        <item itemvalue="TestNG.TestNgExample09" />
       </list>
     </recent_temporary>
   </component>
@@ -142,27 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00234" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1698555783232</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
-      <option name="project" value="LOCAL" />
-      <updated>1698555783232</updated>
-    </task>
-    <task id="LOCAL-00235" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1698555789022</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1698555789022</updated>
-    </task>
-    <task id="LOCAL-00236" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1698555794570</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1698555794570</updated>
     </task>
     <task id="LOCAL-00237" summary="weekly batch commit - 28 Oct 2023&#10;For each">
       <created>1698555798360</created>
@@ -486,7 +491,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700365252990</updated>
     </task>
-    <option name="localTasksCounter" value="283" />
+    <task id="LOCAL-00283" summary="weekly batch commit - 19 Nov 2023&#10;For each">
+      <created>1700369853343</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1700369853343</updated>
+    </task>
+    <task id="LOCAL-00284" summary="weekly batch commit - 19 Nov 2023&#10;For each">
+      <created>1700369858832</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1700369858832</updated>
+    </task>
+    <task id="LOCAL-00285" summary="weekly batch commit - 19 Nov 2023&#10;For each">
+      <created>1700369863685</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1700369863685</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
