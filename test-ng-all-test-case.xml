@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Sanity Suites" parallel="tests" thread-count="3">
+        <parameter name="browsername" value="Google Chrome"/>
+        <groups>
+            <run>
+                <include name="Sanity"/>
+            </run>
+        </groups>
+        <classes>
+        <class name="TestNG.day02.MyAllTestCase">
+            <methods>
+                <include name="TC_00"/>
+                <include name="TC_001"/>
+                <include name="TC_002"/>
+                <exclude name="TC_003"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="Regression">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNG.day02.MyAllTestCase">
+                <methods>
+                    <include name="TC_004"/>
+                    <include name="TC_005"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
