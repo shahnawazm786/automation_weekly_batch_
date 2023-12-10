@@ -8,7 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features ="src/test/resources",
         glue = "steps",
-        tags = "@regression"
+        tags = "@scenariooutline",
+        plugin = {"pretty","html:target/cucumber-report/index.html"},
+        monochrome = true,
+        dryRun = true
+
 )
 public class Runner {
 
