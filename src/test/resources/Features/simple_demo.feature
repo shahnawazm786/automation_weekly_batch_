@@ -1,14 +1,15 @@
 @LoginFeature
-Feature: Logn features
+Feature: Login features
 #Tagging start with @
   @regression
   Scenario: Login with valid credentail
     Given open the browser
     And i pass the valid credential
     When i click on login button
+    And i click on login button
     Then i direct to the user dashboard
 
-    @regression @sanity
+  @regression @sanity
   Scenario: Login with valid In credentail
     Given open the browser
     And i pass the invalid credential
