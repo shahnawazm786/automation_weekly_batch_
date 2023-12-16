@@ -10,5 +10,4 @@ import org.junit.runner.RunWith;
         glue = "StepDefs",
         tags = "@OrangeHRMSLogin"
 )
-public class acceptance {
-}
+public class acceptance {}
