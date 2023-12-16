@@ -8,10 +8,15 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features ="src/test/resources",
         glue = "steps",
-        tags = "@scenariooutline",
-        plugin = {"pretty","html:target/cucumber-report/index.html"},
-        monochrome = true,
-        dryRun = true
+        tags = "@regression",
+        plugin = {
+                "pretty",
+                "json:target/cucumber.json",
+                "html:target/cucumber-html-reports/index.html",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+        }
+        //monochrome = true,
+        //dryRun = true
 
 )
 public class Runner {
