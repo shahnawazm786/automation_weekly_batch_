@@ -60,11 +60,82 @@
             <artifactId>gherkin</artifactId>
             <version>27.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>8.2.1.jre11</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>5.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
 
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>1.7.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 <build>
     <plugins>
+        <plugin>
+            <groupId>net.masterthought</groupId>
+            <artifactId>maven-cucumber-reporting</artifactId>
+            <version>5.7.7</version>
+            <executions>
+                <execution>
+                    <id>execution</id>
+                    <phase>verify</phase>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                    <configuration>
+                        <projectName>Regression</projectName>
+                        <skip>false</skip>
+                        <outputDirectory>${project.build.directory}/cucumber-maven-report/</outputDirectory>
+                        <inputDirectory>${project.build.directory}/</inputDirectory>
+                        <jsonFiles>
+                            <param>**/*.json</param>
+                        </jsonFiles>
+                        <mergeFeaturesById>false</mergeFeaturesById>
+                        <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+                        <checkBuildResult>false</checkBuildResult>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
 
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M7</version>
+            <configuration>
+                <includes>
+                    <!--<include>**/CucumberRunner*.java</include> -->
+                    <include>**/*</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.json</exclude>
+                </excludes>
+                <testFailureIgnore>true</testFailureIgnore>
+            </configuration>
+            <dependencies>
+                <dependency>
+                    <groupId>org.apache.maven.surefire</groupId>
+                    <artifactId>surefire-junit47</artifactId>
+                    <version>3.0.0-M7</version>
+                </dependency>
+            </dependencies>
+        </plugin>
     </plugins>
 </build>
 </project>
