@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features ="src/test/resources",
+        features ="src/test/resources/OrangeFeatures",
         glue = "steps",
-        tags = "@regression",
+        tags = "@HRMSLogin",
         plugin = {
                 "pretty",
                 "json:target/cucumber.json",
