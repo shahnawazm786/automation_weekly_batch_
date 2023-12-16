@@ -28,6 +28,6 @@ public class SeleniumFunctions {
      * @param url
      */
     public static void webURL(WebDriver driver,String url){
-
+            driver.get(url);
         }
 }
