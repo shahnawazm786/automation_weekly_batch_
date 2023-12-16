@@ -12,8 +12,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.IOException;
 
 public class SetupDriver {
-    static protected WebDriver driver;
-    public static WebDriver DriverManager(String browserName) throws IOException, ParseException {
+     WebDriver driver;
+    public  WebDriver DriverManager(String browserName) throws IOException, ParseException {
+        System.out.println(browserName);
         if(browserName.equalsIgnoreCase(EBrowser.CHROME.toString())){
             System.out.println("Chrome Browser");
             ChromeOptions options=new ChromeOptions();
