@@ -1,6 +1,7 @@
 package steps;
 
 import Utility.ReadJsonFile;
+import Utility.ReadingPropertiesFile;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import org.json.simple.parser.ParseException;
@@ -18,6 +19,8 @@ public class Hooks {
         System.out.println(System.getenv("environment"));
         System.out.println("Setup file");
         System.out.println(ReadJsonFile.JsonData("url"));
+        System.out.println(ReadingPropertiesFile.getPropertyValue("username"));
+        System.out.println(ReadingPropertiesFile.getPropertyValue("password"));
     }
     @After
     public void tearDown(){
