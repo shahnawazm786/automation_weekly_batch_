@@ -16,7 +16,7 @@ public class SetupDriver {
             driver=new ChromeDriver(options);
             SeleniumFunctions.maximizeWindow(driver);
             SeleniumFunctions.ImplicitWait(driver,10);
-            SeleniumFunctions.webURL(driver,"https://google.com");
+            SeleniumFunctions.webURL(driver,"https://www.google.com");
 
 
         }
