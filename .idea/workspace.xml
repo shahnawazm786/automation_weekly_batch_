@@ -6,8 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 16 Dec 2023&#10;For each">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/OrnageHRMSLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/OrnageHRMSLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefs/OrangeHRMSLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/OrangeHRMSLoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/SetupDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SetupDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/OrangeFeatures/OrangeLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/OrangeFeatures/OrangeLogin.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/extent.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/ExtentHtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/ExtentPdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,26 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Provide Login Data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/scenario_outline_example.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="WeeklyAutomationBatch" />
-      <option name="NAME_FILTER" value="^Provide Login Data$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Provide Login Data$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Provide Login Data" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeeklyAutomationBatch" />
       <extension name="coverage">
@@ -184,21 +172,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Python tests in test-output" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="WeeklyAutomationBatch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test-output" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test-output&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.SQLServerConnectionExample" />
       <item itemvalue="Cucumber Java.Scenario: Books price" />
-      <item itemvalue="Cucumber Java.Scenario: Provide Login Data" />
       <item itemvalue="JUnit.acceptance" />
       <item itemvalue="JUnit.Runner" />
+      <item itemvalue="Python tests.Python tests in test-output" />
       <item itemvalue="TestNG.Report" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Python tests.Python tests in test-output" />
         <item itemvalue="JUnit.acceptance" />
         <item itemvalue="Application.SQLServerConnectionExample" />
         <item itemvalue="Cucumber Java.Scenario: Books price" />
-        <item itemvalue="Cucumber Java.Scenario: Provide Login Data" />
       </list>
     </recent_temporary>
   </component>
@@ -210,27 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00328" summary="weekly batch commit - 10 Dec 2023&#10;For each">
-      <created>1702702666872</created>
-      <option name="number" value="00328" />
-      <option name="presentableId" value="LOCAL-00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1702702666872</updated>
-    </task>
-    <task id="LOCAL-00329" summary="weekly batch commit - 10 Dec 2023&#10;For each">
-      <created>1702702670501</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1702702670501</updated>
-    </task>
-    <task id="LOCAL-00330" summary="weekly batch commit - 10 Dec 2023&#10;For each">
-      <created>1702702675196</created>
-      <option name="number" value="00330" />
-      <option name="presentableId" value="LOCAL-00330" />
-      <option name="project" value="LOCAL" />
-      <updated>1702702675196</updated>
     </task>
     <task id="LOCAL-00331" summary="weekly batch commit - 10 Dec 2023&#10;For each">
       <created>1702702679602</created>
@@ -554,7 +535,28 @@
       <option name="project" value="LOCAL" />
       <updated>1702735422946</updated>
     </task>
-    <option name="localTasksCounter" value="377" />
+    <task id="LOCAL-00377" summary="weekly batch commit - 16 Dec 2023&#10;For each">
+      <created>1702738575351</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1702738575351</updated>
+    </task>
+    <task id="LOCAL-00378" summary="weekly batch commit - 16 Dec 2023&#10;For each">
+      <created>1702738581899</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1702738581899</updated>
+    </task>
+    <task id="LOCAL-00379" summary="weekly batch commit - 16 Dec 2023&#10;For each">
+      <created>1702738586032</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1702738586032</updated>
+    </task>
+    <option name="localTasksCounter" value="380" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -587,6 +589,17 @@
     <MESSAGE value="weekly batch commit - 10 Dec 2023&#10;For each" />
     <MESSAGE value="weekly batch commit - 16 Dec 2023&#10;For each" />
     <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 16 Dec 2023&#10;For each" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/SetupDriver.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
