@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 3 Dec 2023&#10;For each">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/BooksStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/MyStepdefs2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/new_feature.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/scenario_outline_example.feature" afterDir="false" />
+    <list default="true" id="864e8b63-6543-4187-a076-c9fadee183ff" name="Changes" comment="weekly batch commit - 10 Dec 2023&#10;For each">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sqlserverconnection/SQLServerConnectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/MyStepdefs1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/MyStepdefs1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/simple_demo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/simple_demo.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +43,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/IntellijScalaWorkSpace/WeeklyAutomationBatch/src/test/resources",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IntellijScalaWorkSpace/WeeklyAutomationBatch/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\IntellijScalaWorkSpace\WeeklyAutomationBatch\src\test\resources" />
@@ -71,6 +68,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="SQLServerConnectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sqlserverconnection.SQLServerConnectionExample" />
+      <module name="WeeklyAutomationBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sqlserverconnection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Books price" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/scenario_outline_example.feature" />
@@ -100,27 +110,6 @@
       <option name="NAME_FILTER" value="^Login with valid In credentail$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with valid In credentail$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Login with valid In credentail" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Login with valid credentail" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/simple_demo.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="WeeklyAutomationBatch" />
-      <option name="NAME_FILTER" value="^Login with valid credentail$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login with valid credentail$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with valid credentail" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -191,20 +180,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SQLServerConnectionExample" />
       <item itemvalue="Cucumber Java.Scenario: Books price" />
       <item itemvalue="Cucumber Java.Scenario: Login with valid In credentail" />
       <item itemvalue="Cucumber Java.Scenario: Provide Login Data" />
-      <item itemvalue="Cucumber Java.Scenario: Login with valid credentail" />
       <item itemvalue="JUnit.Runner" />
       <item itemvalue="TestNG.Report" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Application.SQLServerConnectionExample" />
         <item itemvalue="Cucumber Java.Scenario: Books price" />
         <item itemvalue="Cucumber Java.Scenario: Provide Login Data" />
         <item itemvalue="Cucumber Java.Scenario: Login with valid In credentail" />
-        <item itemvalue="Cucumber Java.Scenario: Login with valid credentail" />
       </list>
     </recent_temporary>
   </component>
@@ -216,62 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
-    </task>
-    <task id="LOCAL-00261" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1699688000049</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1699688000049</updated>
-    </task>
-    <task id="LOCAL-00262" summary="weekly batch commit - 28 Oct 2023&#10;For each">
-      <created>1699688004848</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1699688004848</updated>
-    </task>
-    <task id="LOCAL-00263" summary="weekly batch commit - 18 Nov 2023&#10;For each">
-      <created>1700310676460</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1700310676461</updated>
-    </task>
-    <task id="LOCAL-00264" summary="weekly batch commit - 18 Nov 2023&#10;For each">
-      <created>1700310682075</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1700310682075</updated>
-    </task>
-    <task id="LOCAL-00265" summary="weekly batch commit - 18 Nov 2023&#10;For each">
-      <created>1700310687947</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1700310687947</updated>
-    </task>
-    <task id="LOCAL-00266" summary="weekly batch commit - 18 Nov 2023&#10;For each">
-      <created>1700318560180</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1700318560180</updated>
-    </task>
-    <task id="LOCAL-00267" summary="weekly batch commit - 18 Nov 2023&#10;For each">
-      <created>1700318564578</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1700318564578</updated>
-    </task>
-    <task id="LOCAL-00268" summary="weekly batch commit - 18 Nov 2023&#10;For each">
-      <created>1700318644966</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1700318644966</updated>
     </task>
     <task id="LOCAL-00269" summary="weekly batch commit - 18 Nov 2023&#10;For each">
       <created>1700318652592</created>
@@ -560,7 +493,63 @@
       <option name="project" value="LOCAL" />
       <updated>1701579624709</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185008575</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185008575</updated>
+    </task>
+    <task id="LOCAL-00311" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185012697</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185012697</updated>
+    </task>
+    <task id="LOCAL-00312" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185021622</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185021622</updated>
+    </task>
+    <task id="LOCAL-00313" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185025808</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185025808</updated>
+    </task>
+    <task id="LOCAL-00314" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185030043</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185030043</updated>
+    </task>
+    <task id="LOCAL-00315" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185034696</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185034696</updated>
+    </task>
+    <task id="LOCAL-00316" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185039765</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185039765</updated>
+    </task>
+    <task id="LOCAL-00317" summary="weekly batch commit - 10 Dec 2023&#10;For each">
+      <created>1702185044480</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1702185044480</updated>
+    </task>
+    <option name="localTasksCounter" value="318" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -590,6 +579,7 @@
     <MESSAGE value="weekly batch commit - 19 Nov 2023&#10;For each" />
     <MESSAGE value="weekly batch commit - 25 Nov 2023&#10;For each" />
     <MESSAGE value="weekly batch commit - 3 Dec 2023&#10;For each" />
-    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 3 Dec 2023&#10;For each" />
+    <MESSAGE value="weekly batch commit - 10 Dec 2023&#10;For each" />
+    <option name="LAST_COMMIT_MESSAGE" value="weekly batch commit - 10 Dec 2023&#10;For each" />
   </component>
 </project>
