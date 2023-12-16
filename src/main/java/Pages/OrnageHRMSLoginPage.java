@@ -5,21 +5,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
+import org.openqa.selenium.support.PageFactory;
+import static org.junit.Assert.*;
 
 public class OrnageHRMSLoginPage {
-    WebDriver driver;
+    public WebDriver driver;
     public OrnageHRMSLoginPage(WebDriver driver){
-    this.driver=driver;
+        this.driver=driver;
+        PageFactory.initElements(driver,this);
     }
     // Locator define
-    @FindBy(how= How.CSS,id = "input[name='username")
+    @FindBy(how= How.CSS,using = "input[name='username")
     private WebElement TextBox_Username_CSS;
-    @FindBy(how= How.CSS,id = "input[name='password")
+    @FindBy(how= How.CSS,using = "input[name='password")
     private WebElement TextBox_Password_CSS;
-    @FindBy(how= How.CSS,id = "button[type='submit']")
+    @FindBy(how= How.CSS,using = "button[type='submit']")
     private WebElement Button_Submit_CSS;
-    @FindBy(how= How.CSS,id = "h6.oxd-topbar-header-breadcrumb-module")
+    @FindBy(how= How.CSS,using = "h6.oxd-topbar-header-breadcrumb-module")
     private WebElement Label_Header_CSS;
 
     //  action perform
@@ -36,10 +38,7 @@ public class OrnageHRMSLoginPage {
     }
     public void verifyDashboardLabel(){
         String dashboard = Label_Header_CSS.getText();
-        if(dashboard.equalsIgnoreCase("dashboard")){
-            return;
-        }
-
+        assertEquals("Dashboard expected","Dashboard1",dashboard);
 
     }
 }
