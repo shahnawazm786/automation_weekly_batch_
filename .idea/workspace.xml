@@ -198,20 +198,6 @@
       <option name="presentableId" value="Default" />
       <updated>1693629634545</updated>
     </task>
-    <task id="LOCAL-00300" summary="weekly batch commit - 25 Nov 2023&#10;For each">
-      <created>1700935899332</created>
-      <option name="number" value="00300" />
-      <option name="presentableId" value="LOCAL-00300" />
-      <option name="project" value="LOCAL" />
-      <updated>1700935899332</updated>
-    </task>
-    <task id="LOCAL-00301" summary="weekly batch commit - 25 Nov 2023&#10;For each">
-      <created>1700935906395</created>
-      <option name="number" value="00301" />
-      <option name="presentableId" value="LOCAL-00301" />
-      <option name="project" value="LOCAL" />
-      <updated>1700935906396</updated>
-    </task>
     <task id="LOCAL-00302" summary="weekly batch commit - 25 Nov 2023&#10;For each">
       <created>1700935910711</created>
       <option name="number" value="00302" />
@@ -541,7 +527,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702716201733</updated>
     </task>
-    <option name="localTasksCounter" value="349" />
+    <task id="LOCAL-00349" summary="weekly batch commit - 16 Dec 2023&#10;For each">
+      <created>1702716237362</created>
+      <option name="number" value="00349" />
+      <option name="presentableId" value="LOCAL-00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1702716237362</updated>
+    </task>
+    <task id="LOCAL-00350" summary="weekly batch commit - 16 Dec 2023&#10;For each">
+      <created>1702716244109</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1702716244109</updated>
+    </task>
+    <option name="localTasksCounter" value="351" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
