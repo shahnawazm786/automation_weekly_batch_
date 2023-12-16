@@ -12,12 +12,12 @@ public class SetupDriver {
         if(browserName.equalsIgnoreCase(EBrowser.CHROME.toString())){
             System.out.println("Chrome Browser");
             ChromeOptions options=new ChromeOptions();
-            options.addArguments("--maximized--");
+            options.addArguments("--start-maximized");
             driver=new ChromeDriver(options);
-            SeleniumFunctions.maximizeWindow(driver);
+            //SeleniumFunctions.maximizeWindow(driver);
             SeleniumFunctions.ImplicitWait(driver,10);
-            SeleniumFunctions.webURL(driver,"https://www.google.com");
-
+            String url=System.getProperty("url");
+            SeleniumFunctions.webURL(driver,"");
 
         }
         return driver;
