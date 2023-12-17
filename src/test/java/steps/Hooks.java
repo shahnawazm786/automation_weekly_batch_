@@ -22,6 +22,7 @@ public class Hooks {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
     }
+
     @After
     public void tearDownDriver(Scenario scenario) throws IOException {
         if(scenario.isFailed())
