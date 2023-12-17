@@ -20,5 +20,8 @@ public class OrangeHrmsLoginPage {
         driver.findElement(text_box_passsword_css).clear();
         driver.findElement(text_box_passsword_css).sendKeys("admin123");
     }
+    public void clickOnSubmitButton(){
+        driver.findElement(button_submit_css).click();
+    }
 
 }
