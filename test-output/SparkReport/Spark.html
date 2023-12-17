@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 17, 2023 01:42:56 PM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 17, 2023 02:06:35 PM</span></a>
 </li>
 </ul>
 </div>
@@ -72,6 +72,7 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -92,7 +93,7 @@
           <div class="test-detail">
             <p class="name">OrangeHRMS Login feature</p>
             <p class="text-sm">
-              <span>1:42:56 PM</span> / <span>00:00:06:667</span>
+              <span>2:06:36 PM</span> / <span>00:00:26:000</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -101,9 +102,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">OrangeHRMS Login feature</h5>
-<span class='badge badge-success'>12.17.2023 1:42:56 PM</span>
-<span class='badge badge-danger'>12.17.2023 1:43:03 PM</span>
-<span class='badge badge-default'>00:00:06:667</span>
+<span class='badge badge-success'>12.17.2023 2:06:36 PM</span>
+<span class='badge badge-danger'>12.17.2023 2:07:02 PM</span>
+<span class='badge badge-default'>00:00:26:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -152,6 +153,73 @@
 </div>
           </div>
         </li>
+        <li class="test-item"  status="fail" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OrangeHRMS Login feature</p>
+            <p class="text-sm">
+              <span>2:07:03 PM</span> / <span>00:00:05:816</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">OrangeHRMS Login feature</h5>
+<span class='badge badge-success'>12.17.2023 2:07:03 PM</span>
+<span class='badge badge-danger'>12.17.2023 2:07:09 PM</span>
+<span class='badge badge-default'>00:00:05:816</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="11"><span class="badge log fail-bg mr-2">Fail</span>Login with valid credential</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Open the login page</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When Enter user name in user text box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>And Enter password in password text box</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>And I click on submit button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then I verify the user dashboard</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
@@ -173,14 +241,16 @@
 <div class="test-detail">
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">@HRMSLogin</p>
-<p class="duration text-sm">1 tests</p>
+<p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@HRMSLogin</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -193,9 +263,19 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:42:56 PM</td>
+<td>14:06:36 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Login with valid credential</a>
+<div class="">
+<span class="badge badge-default">OrangeHRMS Login feature.Login with valid credential</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:07:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='11'>Login with valid credential</a>
 <div class="">
 <span class="badge badge-default">OrangeHRMS Login feature.Login with valid credential</span>
 </div>
@@ -209,14 +289,16 @@
 <div class="test-detail">
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">@OrangeHRMSLogin</p>
-<p class="duration text-sm">1 tests</p>
+<p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@OrangeHRMSLogin</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -229,9 +311,19 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>13:42:56 PM</td>
+<td>14:06:36 PM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Login with valid credential</a>
+<div class="">
+<span class="badge badge-default">OrangeHRMS Login feature.Login with valid credential</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:07:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='11'>Login with valid credential</a>
 <div class="">
 <span class="badge badge-default">OrangeHRMS Login feature.Login with valid credential</span>
 </div>
@@ -254,13 +346,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 17, 2023 01:42:56 PM</h3>
+<h3>Dec 17, 2023 02:06:35 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 17, 2023 01:43:03 PM</h3>
+<h3>Dec 17, 2023 02:07:09 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -272,7 +364,7 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -288,12 +380,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
+<div><small data-tooltip='50%'>
 <b>1</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='50%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -311,9 +403,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='50%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -331,10 +423,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>5</b> steps passed</small></div>
+<div><small data-tooltip='50%'><b>5</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='10%'><b>1</b> steps failed,
+<b>4</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -350,7 +442,7 @@
 </div></div>
 <script>
 var timeline = {
-"OrangeHRMS Login feature":6.667
+"OrangeHRMS Login feature":26,"OrangeHRMS Login feature":5.816
 };
 </script>
 <div class="row">
@@ -362,18 +454,18 @@ var timeline = {
 <tr>
 <td>@HRMSLogin</td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>50%</td>
 </tr>
 <tr>
 <td>@OrangeHRMSLogin</td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>50%</td>
 </tr>
 </tbody>
 </table></div>
@@ -415,20 +507,20 @@ var timeline = {
 var statusGroup = {
 parentCount: 5,
 passParent: 1,
-failParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
 passChild: 1,
-failChild: 0,
+failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
 passGrandChild: 5,
-failGrandChild: 0,
+failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 4,
 infoGrandChild: 0,
 eventsCount: 5,
 };
