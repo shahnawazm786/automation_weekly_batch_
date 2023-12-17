@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class OrangeHrmsLoginPage {
     WebDriver driver;
-    By text_box_username_css= By.cssSelector("");
-    By text_box_passsword_css=By.cssSelector("");
+    By text_box_username_css= By.cssSelector("input[name='username']");
+    By text_box_passsword_css=By.cssSelector("input[name='password']");
     By button_submit_css=By.cssSelector("");
     public OrangeHrmsLoginPage(WebDriver driver){
         this.driver=driver;
