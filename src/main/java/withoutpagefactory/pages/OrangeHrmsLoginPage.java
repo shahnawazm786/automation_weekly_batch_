@@ -13,8 +13,12 @@ public class OrangeHrmsLoginPage {
     }
     // Methods
     public void enterTextInUserTextBox(){
+        driver.findElement(text_box_username_css).clear();
+        driver.findElement(text_box_username_css).sendKeys("admein");
+    }
+    public void enterTextInPasswordTextBox(){
         driver.findElement(text_box_passsword_css).clear();
-        driver.findElement(text_box_passsword_css).sendKeys("admin");
+        driver.findElement(text_box_passsword_css).sendKeys("admin123");
     }
 
 }
