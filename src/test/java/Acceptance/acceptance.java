@@ -9,6 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/OrangeFeatures",
         glue = "StepDefs",
         tags = "@OrangeHRMSLogin",
-        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "json:/cucumber-maven-report/cucumber-json-file/cucumber.json",
+        }
 )
 public class acceptance {}
