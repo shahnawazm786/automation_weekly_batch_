@@ -7,7 +7,7 @@ public class OrangeHrmsLoginPage {
     WebDriver driver;
     By text_box_username_css= By.cssSelector("input[name='username']");
     By text_box_passsword_css=By.cssSelector("input[name='password']");
-    By button_submit_css=By.cssSelector("");
+    By button_submit_css=By.cssSelector("button[type='submit']");
     public OrangeHrmsLoginPage(WebDriver driver){
         this.driver=driver;
     }
