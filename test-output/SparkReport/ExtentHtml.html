@@ -49,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Dec 17, 2023 01:42:56 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Dec 17, 2023 02:06:35 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -65,6 +65,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -119,12 +120,12 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='$100%'>
+                    <span class='tooltipped' data-position='top' data-tooltip='$50%'>
                     <span class='strong'>1</span> features passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
-                    0</span> features failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='50%'>
+                    1</span> features failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped
                 </div>
@@ -137,12 +138,12 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'>
+                    <span class='tooltipped' data-position='top' data-tooltip='50%'>
                     <span class='strong'>1</span> scenarios passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
-                    0</span> scenarios failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='50%'>
+                    1</span> scenarios failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -157,14 +158,14 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'>
+                    <span class='tooltipped' data-position='top' data-tooltip='50%'>
                     <span class='strong'>5</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
-                    0</span> steps failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
-                    0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='10%'>
+                    1</span> steps failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='40%'>
+                    4</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> others
                 </div>
@@ -188,7 +189,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>OrangeHRMS Login feature</span>
-						<span class='test-time'>Dec 17, 2023 01:42:56 PM</span>
+						<span class='test-time'>Dec 17, 2023 02:06:36 PM</span>
 						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -201,7 +202,7 @@
 
 <div class='scenario node' test-id='2' status='pass'>
 
-	<span class='duration right label'>00 00 06.665</span>
+	<span class='duration right label'>00 00 25.998</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Login with valid credential</div>
 	</div>
@@ -237,6 +238,68 @@
 			<div class="step-name" title="(StepDefs.OrangeHRMSLoginSteps.iVerifyTheUserDashboard())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then I verify the user dashboard</div>
 
 
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='10'>
+					<div class='test-heading'>
+						<span class='test-name'>OrangeHRMS Login feature</span>
+						<span class='test-time'>Dec 17, 2023 02:07:03 PM</span>
+						<span class='test-status right fail'>Fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class="sr-filters bdd-filters">
+	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
+	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
+	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
+	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
+</div>
+
+<div class='scenario node' test-id='11' status='fail'>
+
+	<span class='duration right label'>00 00 05.816</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Login with valid credential</div>
+	</div>
+	
+	
+		<div class='category-list'>
+				<span class='category label'>@HRMSLogin</span>
+				<span class='category label'>@OrangeHRMSLogin</span>
+		</div>
+	
+	<ul class='steps'>
+		<li test-id='13' class='node given Fail' status='Fail'>
+			<div class="step-name" title="()"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Given Open the login page</div>
+
+
+					<div class="node-step">Step undefined</div>
+		</li>
+		<li test-id='14' class='node when Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>When Enter user name in user text box</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='15' class='node and Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And Enter password in password text box</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='16' class='node and Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And I click on submit button</div>
+
+
+					<div class="node-step">Step skipped</div>
+		</li>
+		<li test-id='17' class='node then Skip' status='Skip'>
+			<div class="step-name" title="()"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>Then I verify the user dashboard</div>
+
+
+					<div class="node-step">Step skipped</div>
 		</li>
 	</ul>
 </div>
@@ -287,12 +350,13 @@
 						<span class='category-name'>@HRMSLogin</span>
 						<span class='category-status right'>
 						<span class='label pass'>1</span>
+						<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
 							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -306,9 +370,14 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 17, 2023 01:42:56 PM</td>
+										<td>Dec 17, 2023 02:06:36 PM</td>
 										<td class='linked' test-id='2'>Login with valid credential</td>
 										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 17, 2023 02:07:03 PM</td>
+										<td class='linked' test-id='11'>Login with valid credential</td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -320,12 +389,13 @@
 						<span class='category-name'>@OrangeHRMSLogin</span>
 						<span class='category-status right'>
 						<span class='label pass'>1</span>
+						<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
 							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
+							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 						<div class='category-tests'>
@@ -339,9 +409,14 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 17, 2023 01:42:56 PM</td>
+										<td>Dec 17, 2023 02:06:36 PM</td>
 										<td class='linked' test-id='2'>Login with valid credential</td>
 										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 17, 2023 02:07:03 PM</td>
+										<td class='linked' test-id='11'>Login with valid credential</td>
+										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -365,37 +440,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>5</div>
+					<div class='panel-lead'>10</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 17, 2023 01:42:56 PM</div>
+					<div class='panel-lead'>Dec 17, 2023 02:06:35 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 17, 2023 01:43:03 PM</div>
+			 		<div class='panel-lead'>Dec 17, 2023 02:07:09 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 07.048</div>
+					<div class='panel-lead'>00 00 33.398</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -445,19 +520,19 @@
 						<tr>
 							<td>@HRMSLogin</td>
 							<td>1</td>
-							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									100%
+									50%
 							</td>
 						</tr>
 						<tr>
 							<td>@OrangeHRMSLogin</td>
 							<td>1</td>
-							<td>0</td>
+							<td>1</td>
 							<td>0</td>
 							<td>
-									100%
+									50%
 							</td>
 						</tr>
 					</table>
@@ -471,35 +546,35 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 1,
+                parentCount: 2,
 				passParent: 1,
-				failParent: 0,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				childCount: 1,
+				childCount: 2,
 				passChild: 1,
-				failChild: 0,
+				failChild: 1,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 5,
+				grandChildCount: 10,
 				passGrandChild: 5,
-				failGrandChild: 0,
+				failGrandChild: 1,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 0,
+				skipGrandChild: 4,
 				infoGrandChild: 0,
 			};
 			</script>
 		
 		<script>
 			var timeline = {
-			        "OrangeHRMS Login feature":6.667
+			        "OrangeHRMS Login feature":26,"OrangeHRMS Login feature":5.816
 			};
 		</script>
 		
