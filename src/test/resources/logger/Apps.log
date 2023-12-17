@@ -1,0 +1,3 @@
+2023-12-17 13:42:56 INFO  WebDriverManager:1217 - Using chromedriver 120.0.6099.71 (resolved driver for Chrome 120)
+  2023-12-17 13:42:56 INFO  WebDriverManager:1270 - Exporting webdriver.chrome.driver as C:\Users\shahn\.cache\selenium\chromedriver\win64\120.0.6099.71\chromedriver.exe
+  
