@@ -1,4 +1,20 @@
 package withoutpagefactory.pages;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
 public class OrangeHrmsLoginPage {
+    WebDriver driver;
+    By text_box_username_css= By.cssSelector("");
+    By text_box_passsword_css=By.cssSelector("");
+    By button_submit_css=By.cssSelector("");
+    public OrangeHrmsLoginPage(WebDriver driver){
+        this.driver=driver;
+    }
+    // Methods
+    public void enterTextInUserTextBox(){
+        driver.findElement(text_box_passsword_css).clear();
+        driver.findElement(text_box_passsword_css).sendKeys("admin");
+    }
+
 }
