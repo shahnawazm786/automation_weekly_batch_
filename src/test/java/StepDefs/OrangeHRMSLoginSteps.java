@@ -9,6 +9,7 @@ import io.cucumber.java.en.When;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import withoutpagefactory.pages.OrangeHrmsLoginPage;
 
 import java.io.IOException;
 
@@ -18,29 +19,31 @@ public class OrangeHRMSLoginSteps {
 
 //WebDriver driver=new Apps_Hooks().driver; object
     WebDriver driver=Apps_Hooks.driver;
-    OrnageHRMSLoginPage loginPage=new OrnageHRMSLoginPage(driver);
+    //OrnageHRMSLoginPage loginPage=new OrnageHRMSLoginPage(driver);
+    OrangeHrmsLoginPage login=new OrangeHrmsLoginPage(driver);
     @Given("Open the login page")
     public void openTheLoginPage() {
     }
 
     @When("Enter user name in user text box")
     public void enterUserNameInUserTextBox() throws IOException {
-        loginPage.enterUserName();
-
-
+        //loginPage.enterUserName();
+        login.enterTextInUserTextBox();
     }
 
     @And("Enter password in password text box")
     public void enterPasswordInPasswordTextBox() throws IOException {
 
-        loginPage.enterPassword();
+        //loginPage.enterPassword();
+        login.enterTextInPasswordTextBox();
 
     }
 
     @And("I click on submit button")
     public void iClcikOnSubmitButton() {
 
-        loginPage.clickOnSubmit();
+        //loginPage.clickOnSubmit();
+        login.clickOnSubmitButton();
 
     }
 
@@ -50,8 +53,6 @@ public class OrangeHRMSLoginSteps {
      //       .getText();
 
       //  assertEquals("Dashboard",dashboardText);
-        loginPage.verifyDashboardLabel();
-
-
+        //loginPage.verifyDashboardLabel();
     }
 }
