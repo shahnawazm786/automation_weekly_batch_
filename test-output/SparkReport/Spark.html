@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 17, 2023 02:06:35 PM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 24, 2023 10:29:43 AM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -71,7 +76,6 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -86,25 +90,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">OrangeHRMS Login feature</p>
             <p class="text-sm">
-              <span>2:06:36 PM</span> / <span>00:00:26:000</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>10:29:44 AM</span> / <span>00:00:00:053</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">OrangeHRMS Login feature</h5>
-<span class='badge badge-success'>12.17.2023 2:06:36 PM</span>
-<span class='badge badge-danger'>12.17.2023 2:07:02 PM</span>
-<span class='badge badge-default'>00:00:26:000</span>
+<h5 class="test-status text-fail">OrangeHRMS Login feature</h5>
+<span class='badge badge-success'>12.24.2023 10:29:44 AM</span>
+<span class='badge badge-danger'>12.24.2023 10:29:44 AM</span>
+<span class='badge badge-default'>00:00:00:053</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -117,34 +121,53 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Login with valid credential</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Login with valid credential</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="StepDefs.OrangeHRMSLoginSteps.openTheLoginPage()">
+              <div class="step fail-bg" title="BEFORE">
+                <span>StepDefs.Apps_Hooks.setupDriver()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at Utility.drivers.DriverManager.getDriver(DriverManager.java:16)
+	at StepDefs.Apps_Hooks.setupDriver(Apps_Hooks.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefs.OrangeHRMSLoginSteps.openTheLoginPage()">
                 <span>Given Open the login page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefs.OrangeHRMSLoginSteps.enterUserNameInUserTextBox()">
+              <div class="step skip-bg" title="StepDefs.OrangeHRMSLoginSteps.enterUserNameInUserTextBox()">
                 <span>When Enter user name in user text box</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefs.OrangeHRMSLoginSteps.enterPasswordInPasswordTextBox()">
+              <div class="step skip-bg" title="StepDefs.OrangeHRMSLoginSteps.enterPasswordInPasswordTextBox()">
                 <span>And Enter password in password text box</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefs.OrangeHRMSLoginSteps.iClcikOnSubmitButton()">
+              <div class="step skip-bg" title="StepDefs.OrangeHRMSLoginSteps.iClcikOnSubmitButton()">
                 <span>And I click on submit button</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="StepDefs.OrangeHRMSLoginSteps.iVerifyTheUserDashboard()">
+              <div class="step skip-bg" title="StepDefs.OrangeHRMSLoginSteps.iVerifyTheUserDashboard()">
                 <span>Then I verify the user dashboard</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>StepDefs.Apps_Hooks.tearDownDriver(io.cucumber.java.Scenario)</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at StepDefs.Apps_Hooks.tearDownDriver(Apps_Hooks.java:43)
+</textarea>
+      
       </div>
               </div>
           </div>
@@ -160,7 +183,7 @@
           <div class="test-detail">
             <p class="name">OrangeHRMS Login feature</p>
             <p class="text-sm">
-              <span>2:07:03 PM</span> / <span>00:00:05:816</span>
+              <span>10:29:46 AM</span> / <span>00:00:06:540</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -169,9 +192,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">OrangeHRMS Login feature</h5>
-<span class='badge badge-success'>12.17.2023 2:07:03 PM</span>
-<span class='badge badge-danger'>12.17.2023 2:07:09 PM</span>
-<span class='badge badge-default'>00:00:05:816</span>
+<span class='badge badge-success'>12.24.2023 10:29:46 AM</span>
+<span class='badge badge-danger'>12.24.2023 10:29:52 AM</span>
+<span class='badge badge-default'>00:00:06:540</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -229,28 +252,26 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
-<p class="name">@HRMSLogin</p>
+<p class="name">java.lang.NullPointerException</p>
 <p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@HRMSLogin</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -261,9 +282,71 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>14:06:36 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:29:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>StepDefs.Apps_Hooks.setupDriver()</a>
+<div class="">
+<span class="badge badge-default">OrangeHRMS Login feature.Login with valid credential.StepDefs.Apps_Hooks.setupDriver()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:29:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>StepDefs.Apps_Hooks.tearDownDriver(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">OrangeHRMS Login feature.Login with valid credential.StepDefs.Apps_Hooks.tearDownDriver(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@HRMSLogin</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@HRMSLogin</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:29:44 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Login with valid credential</a>
 <div class="">
@@ -273,7 +356,7 @@
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:07:03 PM</td>
+<td>10:29:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='10' id='11'>Login with valid credential</a>
 <div class="">
@@ -288,8 +371,7 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
 <p class="name">@OrangeHRMSLogin</p>
 <p class="duration text-sm">2 tests</p>
@@ -297,8 +379,7 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@OrangeHRMSLogin</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -309,9 +390,9 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>14:06:36 PM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:29:44 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='2'>Login with valid credential</a>
 <div class="">
@@ -321,7 +402,7 @@
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>14:07:03 PM</td>
+<td>10:29:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='10' id='11'>Login with valid credential</a>
 <div class="">
@@ -346,25 +427,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 17, 2023 02:06:35 PM</h3>
+<h3>Dec 24, 2023 10:29:43 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 17, 2023 02:07:09 PM</h3>
+<h3>Dec 24, 2023 10:29:52 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>1</h3>
+<h3>2</h3>
 </div></div>
 </div>
 </div>
@@ -380,12 +461,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'>
-<b>1</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='50%'><b>1</b> features failed,
+<small data-tooltip='100%'><b>2</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -403,9 +484,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='50%'><b>1</b> scenarios failed,
+<small data-tooltip='100%'><b>2</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -423,10 +504,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'><b>5</b> steps passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
 <div>
-<small data-tooltip='10%'><b>1</b> steps failed,
-<b>4</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='25%'><b>3</b> steps failed,
+<b>9</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -442,7 +523,7 @@
 </div></div>
 <script>
 var timeline = {
-"OrangeHRMS Login feature":26,"OrangeHRMS Login feature":5.816
+"OrangeHRMS Login feature":0.053,"OrangeHRMS Login feature":6.54
 };
 </script>
 <div class="row">
@@ -453,19 +534,19 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@HRMSLogin</td>
-<td>1</td>
-<td>1</td>
+<td>0</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
-<td>50%</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>@OrangeHRMSLogin</td>
-<td>1</td>
-<td>1</td>
+<td>0</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
-<td>50%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -506,21 +587,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 1,
+passParent: 0,
+failParent: 2,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
-failChild: 1,
+passChild: 0,
+failChild: 2,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 5,
-failGrandChild: 1,
+passGrandChild: 0,
+failGrandChild: 3,
 warningGrandChild: 0,
-skipGrandChild: 4,
+skipGrandChild: 9,
 infoGrandChild: 0,
 eventsCount: 5,
 };
