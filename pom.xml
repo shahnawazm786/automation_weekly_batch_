@@ -115,7 +115,7 @@
                         <projectName>Regression</projectName>
                         <skip>false</skip>
                         <outputDirectory>${project.build.directory}/cucumber-maven-report/</outputDirectory>
-                        <inputDirectory>${project.build.directory}/</inputDirectory>
+                        <inputDirectory>${project.build.directory}/cucumber-maven-json/</inputDirectory>
                         <jsonFiles>
                             <param>**/*.json</param>
                         </jsonFiles>
