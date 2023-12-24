@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "StepDefs",
         tags = "@OrangeHRMSLogin",
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-                "json:/cucumber-maven-report/cucumber-json-file/cucumber.json",
+                "json:target/cucumber-maven-json/cucumber.json",
         }
 )
 public class acceptance {}
