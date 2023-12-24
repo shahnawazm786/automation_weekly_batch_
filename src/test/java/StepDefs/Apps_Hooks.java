@@ -1,6 +1,7 @@
 package StepDefs;
 
 import Utility.ReadJsonFile;
+import Utility.drivers.DriverManager;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -21,13 +22,17 @@ public class Apps_Hooks {
     static WebDriver driver;
     @Before
     public void setupDriver() throws IOException, ParseException {
-        ChromeOptions options=new ChromeOptions();
+        System.out.println(System.getenv("browser"));
+        driver= DriverManager.getDriver(System.getenv("browser"));
+/*        ChromeOptions options=new ChromeOptions();
         WebDriverManager.chromedriver().setup();
         options.addArguments("--start-maximized");
         driver=new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         //driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         driver.get(ReadJsonFile.JsonData("url"));
+        */
+
     }
     @After
     public void tearDownDriver(Scenario scenario) throws IOException {
