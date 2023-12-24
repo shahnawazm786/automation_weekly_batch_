@@ -23,7 +23,7 @@ public class SetupDriver {
             //SeleniumFunctions.maximizeWindow(driver);
             SeleniumFunctions.ImplicitWait(driver,10);
             String url=System.getProperty("url");
-            SeleniumFunctions.webURL(driver, ReadJsonFile.JsonData("url"));
+            SeleniumFunctions.APPURL(driver, ReadJsonFile.JsonData("url"));
         }
         return driver;
     }
