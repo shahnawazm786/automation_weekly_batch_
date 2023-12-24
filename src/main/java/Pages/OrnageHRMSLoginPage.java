@@ -1,12 +1,10 @@
 package Pages;
 
-
-
 import Utility.ReadingPropertiesFile;
+import Utility.SeleniumFunctions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
@@ -43,12 +41,16 @@ public class OrnageHRMSLoginPage {
 
     //  action perform
     public void enterUserName() throws IOException {
-        TextBox_Username_CSS.clear();
+        SeleniumFunctions.SendText(driver,TextBox_Username_CSS,ReadingPropertiesFile.getPropertyValue("username"));
+
+        //SeleniumFunctions.WaitToEnterData(driver,TextBox_Username_CSS);
+        //TextBox_Username_CSS.clear();
         //TextBox_Username_CSS.sendKeys("admin");
-        TextBox_Username_CSS.sendKeys(ReadingPropertiesFile.getPropertyValue("username"));
+        //TextBox_Username_CSS.sendKeys(ReadingPropertiesFile.getPropertyValue("username"));
     }
     public void enterPassword() throws IOException {
-        TextBox_Password_CSS.clear();
+        //TextBox_Password_CSS.clear();
+        SeleniumFunctions.ClearText(driver,TextBox_Password_CSS);
         //TextBox_Password_CSS.sendKeys("admin123");
         TextBox_Password_CSS.sendKeys(ReadingPropertiesFile.getPropertyValue("password"));
     }
